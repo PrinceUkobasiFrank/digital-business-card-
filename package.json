@@ -1,0 +1,21 @@
+{
+  "name": "digital-business-card",
+  "version": "1.0.0",
+  "description": "A modern, animated digital business card for Prince Ukobasi Frank — Founder & CEO of PR3NC2 Technologies.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.5",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
